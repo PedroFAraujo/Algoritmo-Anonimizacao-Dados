@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algoritmo-anonimizacao-dados"
+version = "0.1.0"
+description = "Anonimização e geração de dados sintéticos para análises do domínio MellowPet."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2,<3",
+    "numpy>=1.26,<3",
+    "Faker>=25,<40",
+    "XlsxWriter>=3.2,<4",
+]
+
+[project.scripts]
+anonimizar-dados = "algoritmo_anonimizacao.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

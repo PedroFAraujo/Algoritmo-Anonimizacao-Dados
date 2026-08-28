@@ -1,0 +1,13 @@
+registro_id,nome,email,data_nascimento,cidade,especie_pet,humor_predominante,nivel_estresse,confianca_analise,sessao_minutos,data_evento,canal_captura
+MP-0001,Ana Souza,ana.souza@example.test,1994-03-15,São Paulo,cachorro,calmo,2,0.91,18,2025-01-08,app
+MP-0002,Bruno Lima,bruno.lima@example.test,1987-11-02,Curitiba,gato,ansioso,7,0.74,32,2025-01-12,app
+MP-0003,Carla Mendes,carla.mendes@example.test,2001-06-24,Recife,cachorro,feliz,3,0.88,12,2025-01-19,dispositivo_iot
+MP-0004,Diego Alves,diego.alves@example.test,1979-09-10,Rio de Janeiro,gato,triste,8,0.63,47,2025-02-02,app
+MP-0005,Elisa Rocha,elisa.rocha@example.test,1968-12-27,Belo Horizonte,cachorro,calmo,4,0.79,25,2025-02-07,app
+MP-0006,Felipe Costa,felipe.costa@example.test,1998-04-05,Salvador,gato,feliz,1,0.95,9,2025-02-14,dispositivo_iot
+MP-0007,Gabriela Nunes,gabriela.nunes@example.test,1983-07-18,Porto Alegre,cachorro,ansioso,6,0.68,39,2025-02-21,app
+MP-0008,Hugo Martins,hugo.martins@example.test,1972-02-09,Brasília,gato,calmo,5,0.84,21,2025-03-01,dispositivo_iot
+MP-0009,Isabela Freitas,isabela.freitas@example.test,1991-10-31,Campinas,cachorro,feliz,2,0.92,16,2025-03-06,app
+MP-0010,João Ribeiro,joao.ribeiro@example.test,1989-05-22,Goiânia,gato,triste,7,0.57,44,2025-03-11,app
+MP-0011,Karina Duarte,karina.duarte@example.test,1996-08-13,Manaus,cachorro,calmo,3,0.86,14,2025-03-18,dispositivo_iot
+MP-0012,Lucas Barros,lucas.barros@example.test,1975-01-30,Belém,gato,ansioso,9,0.61,52,2025-03-25,app
