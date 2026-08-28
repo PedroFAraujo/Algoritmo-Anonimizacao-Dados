@@ -4,12 +4,6 @@ Pipeline em Python para transformar registros de análise emocional do domínio 
 [MellowPet](https://github.com/Endrigogustavo/MellowPet) em uma base sintética,
 generalizada e pronta para análise no Excel.
 
-> **Aviso de privacidade:** nenhum método baseado apenas em transformação de
-> dados garante risco zero de reidentificação em todos os cenários. Este projeto
-> remove identificadores diretos, generaliza quase-identificadores e publica
-> somente linhas sintéticas. Antes de usar em produção, faça uma avaliação de
-> risco, governança de acesso e validação jurídica/organizacional aplicável.
-
 ## Visão geral e área analisada
 
 O MellowPet é uma plataforma de bem-estar emocional que registra eventos de
@@ -171,24 +165,3 @@ pytest
 6. **Governança:** dados reais, chaves, tokens e arquivos exportados com PII não
    devem entrar no Git. Faça revisão de privacidade antes de qualquer publicação.
 
-## Diretrizes de Git
-
-Sugestão de commits pequenos e auditáveis:
-
-```text
-chore: inicializa estrutura do projeto Python
-feat: adiciona validação e generalização de identificadores
-feat: adiciona geração de dados sintéticos reproduzíveis
-feat: exporta abas formatadas para Excel
-test: cobre invariantes de privacidade e volume
-docs: adiciona dicionário e instruções de execução
-```
-
-Antes de cada push, rode `pytest`, verifique o diff com `git diff --check` e
-confirme que nenhum CSV real ou segredo foi incluído. Releases que alterarem o
-esquema de entrada ou saída devem atualizar o dicionário e os testes no mesmo
-commit.
-
-## Licença
-
-Distribuído sob a licença MIT. Consulte `LICENSE`.
