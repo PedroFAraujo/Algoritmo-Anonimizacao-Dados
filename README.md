@@ -1,6 +1,6 @@
-Endrigo Gustavo Brandao de Oliveira
-Gabriel Messias da Silva
-Pedro Fernandes Araujo
+Endrigo Gustavo Brandao de Oliveira <br>
+Gabriel Messias da Silva <br>
+Pedro Fernandes Araujo <br>
 
 # Algoritmo de Anonimização de Dados
 
