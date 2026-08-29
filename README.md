@@ -1,3 +1,7 @@
+Endrigo Gustavo Brandao de Oliveira
+Gabriel Messias da Silva
+Pedro Fernandes Araujo
+
 # Algoritmo de Anonimização de Dados
 
 Pipeline em Python para transformar registros de análise emocional do domínio do
